@@ -12,12 +12,26 @@
 $primary: #7550fe;
 $secondary: #f5f4f8;
 
-
 @import "../../bootstrap/variables";
 
 
 
 @import "../../bootstrap/maps";
+
+$grey: #5c5776;
+   $orange: #ffeeda;
+    $brown: #c28135;
+
+
+
+    $custom-colors:
+    (
+    "grey": $grey,
+    "orange": $orange,
+    "brown": $brown,
+    );
+
+$allcolors: map-merge($colors, $custom-colors);
 @import "../../bootstrap/mixins";
 @import "../../bootstrap/utilities";
 
